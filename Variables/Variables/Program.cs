@@ -15,7 +15,7 @@ namespace Variables
 
             double result = tal1 + tal2;
 
-            Console.WriteLine(result);
+            Console.WriteLine(result); 
             Console.ReadLine();
         }
     }
