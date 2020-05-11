@@ -36,7 +36,7 @@ namespace Opgave_3___Løkker
 
             for (int i = 1; i <= 100; i++)
             {
-                Console.WriteLine("{0} ", i * 2);
+                Console.WriteLine(i * 2);
             }
         }
     }
