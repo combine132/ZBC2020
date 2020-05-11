@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO.Pipes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,6 +39,9 @@ namespace Opgave_3___Løkker
             {
                 Console.WriteLine(i * 2);
             }
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
+            
         }
     }
 }
