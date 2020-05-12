@@ -16,7 +16,7 @@ namespace Opgave_2
             Random dice = new Random();
             int rollDice = dice.Next(1,7);
             Console.WriteLine("du slog en " + rollDice+"'er");
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
