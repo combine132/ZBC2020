@@ -23,7 +23,7 @@ namespace Opgave_0___Hello_World
             {
                 Console.WriteLine($"Halløj {args[0]}!");
             }
-            //Den skriver de parameter jeg skrive i cmd
+            //Den svarer med det parameter jeg skriver ind i cmd
         }
     }
 }

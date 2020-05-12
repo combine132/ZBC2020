@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPF_Testing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Testing"
+        mc:Ignorable="d"
+        Title="Hello WPF" Height="450" Width="800">
+    <Grid>
+        <TextBlock Name ="hilsen" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="110">
+            Hello WPF
+        </TextBlock>
+        <StackPanel>
+            <RadioButton Checked="LangButton">Dansk</RadioButton>
+            <RadioButton Checked="LangButton">English</RadioButton>
+            <RadioButton Checked="LangButton">Japanese</RadioButton>
+        </StackPanel>
+    </Grid>
+</Window>
