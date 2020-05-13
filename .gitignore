@@ -348,3 +348,7 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/Methods/Methods/Properties
+/Methods/Methods/App.config
+/Methods/Methods/Methods.csproj
+/Methods/Methods.sln
