@@ -21,7 +21,7 @@ namespace Opgave_0___Hello_World
             //Opgave C
             if (args.Length > 0)
             {
-                Console.WriteLine($"Halløj {args[0]}!");
+                Console.WriteLine($"Hello {args[0]}!");
             }
             //Den svarer med det parameter jeg skriver ind i cmd
         }
