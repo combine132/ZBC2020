@@ -352,3 +352,6 @@ MigrationBackup/
 /Methods/Methods/App.config
 /Methods/Methods/Methods.csproj
 /Methods/Methods.sln
+*.csproj
+/Opgave 6 - Server/Opgave 6 - Server/Properties/AssemblyInfo.cs
+/Opgave 6 - Server/Opgave 6 - Server/App.config

@@ -39,14 +39,17 @@ namespace WPF_Testing
                 case "English":
                     greetings = "Hello";
                     break;
-                case "Japanese":
-                    greetings = "ko ni chi wa mother fucker";
+                case "Deutsch":
+                    greetings = "Hallo";
+                    break;
+                case "Français":
+                    greetings = "Salut";
                     break;
                 default:
                     greetings = "something went wrong lol loser";
                     break;
             }
-            hilsen.Text = greetings + "";
+            hilsen.Text = greetings + " WPF";
         }
     }
 }

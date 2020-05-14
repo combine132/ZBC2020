@@ -23,6 +23,17 @@ namespace WPF_TestTwo
         public MainWindow()
         {
             InitializeComponent();
+
+        }
+
+        private void SaveNameButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ConnectButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

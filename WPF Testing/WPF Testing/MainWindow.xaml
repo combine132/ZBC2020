@@ -13,7 +13,8 @@
         <StackPanel>
             <RadioButton Checked="LangButton">Dansk</RadioButton>
             <RadioButton Checked="LangButton">English</RadioButton>
-            <RadioButton Checked="LangButton">Japanese</RadioButton>
+            <RadioButton Checked="LangButton">Deutsch</RadioButton>
+            <RadioButton Checked="LangButton">Français</RadioButton>
         </StackPanel>
     </Grid>
 </Window>
