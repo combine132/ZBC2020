@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Opgave_2
 {
@@ -10,13 +6,40 @@ namespace Opgave_2
     {
         static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.BackgroundColor = ConsoleColor.Blue;
-
             Random dice = new Random();
-            int rollDice = dice.Next(1,7);
-            Console.WriteLine("du slog en " + rollDice+"'er");
-            Console.ReadKey();
+            string kast = Console.ReadLine();
+            int kastInt = Convert.ToInt32(kast);
+            int ones = 0, twos = 0, threes = 0, fours = 0, fives = 0, sixes = 0;
+            for (int i = 0; i < kastInt; i++)
+            {
+                int rollDice = dice.Next(1, 7);
+                Console.WriteLine($"{rollDice}");
+                if (rollDice == 1)
+                {
+                    ones++;
+                }
+                if (rollDice == 2)
+                {
+                    twos++;
+                }
+                if (rollDice == 3)
+                {
+                    threes++;
+                }
+                if (rollDice == 4)
+                {
+                    fours++;
+                }
+                if (rollDice == 5)
+                {
+                    fives++;
+                }
+                if (rollDice == 6)
+                {
+                    sixes++;
+                }
+            }
+            Console.WriteLine($"Total:\nOnes: {ones}\nTwos: {twos}\nThrees: {threes}\nFours: {fours}\nFives: {fives}\nSixes: {sixes}");
         }
     }
 }

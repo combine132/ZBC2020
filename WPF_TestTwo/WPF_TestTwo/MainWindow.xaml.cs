@@ -1,17 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Net.Sockets;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace WPF_TestTwo
 {
@@ -24,16 +14,22 @@ namespace WPF_TestTwo
         {
             InitializeComponent();
 
-        }
+            //// Client Setup
+            //TcpClient client = new TcpClient();
 
-        private void SaveNameButton_Click(object sender, RoutedEventArgs e)
-        {
+            //string ipAddress = IpAddressBox.Text;
+            //int port = 27015;
+            //client.Connect(ipAddress, port);
 
-        }
+            //NetworkStream dataStream = client.GetStream();
+            //do
+            //{
+            //    string keyInput = Console.ReadLine();
 
-        private void ConnectButton_Click(object sender, RoutedEventArgs e)
-        {
+            //    byte[] data = Encoding.ASCII.GetBytes(keyInput);
 
+            //    dataStream.Write(data, 0, data.Length);
+            //} while (true);
         }
     }
 }

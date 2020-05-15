@@ -33,13 +33,16 @@ namespace Opgave_6___Server
             // Receiving data
             NetworkStream receive = client.GetStream();
 
-            // Storing data
-            byte[] dataReceived = new byte[client.ReceiveBufferSize];
-            int dataRead = receive.Read(dataReceived, 0, Convert.ToInt32(client.ReceiveBufferSize));
-            
-            // Display what the client wrote
-            string dataString = Encoding.ASCII.GetString(dataReceived, 0, dataRead);
-            Console.WriteLine($"User: {dataString}");
+            do
+            {
+                // Storing data
+                byte[] dataReceived = new byte[client.ReceiveBufferSize];
+                int dataRead = receive.Read(dataReceived, 0, Convert.ToInt32(client.ReceiveBufferSize));
+
+                // Display what the client wrote
+                string dataString = Encoding.ASCII.GetString(dataReceived, 0, dataRead);
+                Console.WriteLine($"User: {dataString}");
+            } while (true);
         }
     }
 }
