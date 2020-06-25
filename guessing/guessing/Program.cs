@@ -35,6 +35,8 @@ namespace guessing
             {
                 // ReadLine her, da den ellers ikke vil virke
                 string guessStringNumber = Console.ReadLine();
+                // Fandt den her smarte ting som tjekker om det er int eller string input
+                // lidt hacky men det virker som det nu engang skal
                 Int32.TryParse(guessStringNumber, out int guessedNumber);
 
                 // Har brugeren gættet rigtigt?
@@ -45,11 +47,11 @@ namespace guessing
                 }
                 else
                 {
-                    if (guessedNumber > numToGuess)
+                    if (guessedNumber > numToGuess) // er tallet mindre?
                     {
                         Console.WriteLine($"The number is smaller than your guess.");
                     }
-                    else if (guessedNumber < numToGuess)
+                    else if (guessedNumber < numToGuess) // er tallet større?
                     {
                         Console.WriteLine($"The number is larger than your guess.");
                     }
