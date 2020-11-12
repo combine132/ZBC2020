@@ -1,2 +1,4 @@
 # ZBC2020
-all school coding
+This is all the coding ive done on GF2, April - October
+
+Bit of a mess really.
