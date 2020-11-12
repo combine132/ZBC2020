@@ -15,6 +15,6 @@
             <RadioButton Checked="LangButton">English</RadioButton>
             <RadioButton Checked="LangButton">Deutsch</RadioButton>
             <RadioButton Checked="LangButton">Français</RadioButton>
-        </StackPanel>
+        </StackPanel> 
     </Grid>
 </Window>
