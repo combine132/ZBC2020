@@ -46,7 +46,7 @@ namespace WPF_Testing
                     greetings = "Salut";
                     break;
                 default:
-                    greetings = "something went wrong lol loser";
+                    greetings = "something went wrong";
                     break;
             }
             hilsen.Text = greetings + " WPF";
